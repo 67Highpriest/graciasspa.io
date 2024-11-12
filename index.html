@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracia's Spa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<div id="popup-container" class="popup-container">
+    <div id="popup" class="popup">
+        <span id="close-btn" onclick="closePopup()">&times;</span>
+        <div id="popup-content"></div>
+    </div>
+</div>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#" onclick="openPopup('gallery')">Gallery</a></li>
+    </ul>
+</nav>
+
+    <button id="backToTop"><i class="fas fa-chevron-up"></i></button>
+    <header>
+        <div class="logo">
+            <h1>Gracia's Spa</h1>
+        </div>
+    </header>
+    <!-- Main Banner Section -->
+    <section class="banner">
+        <h2>Welcome to Gracia's Spa</h2>
+        <p>Where we provide the ultimate relaxation and rejuvenation experience. Our experts offer a variety of luxurious spa services to make you feel at your best.</p>
+    </section>
+
+
+
+
+    <div class="slideshow-container orbital-container">
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa1.jpg" alt="Spa 1" class="spa-slide">
+        <div class="text">
+            <h4>Deep tissue</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa2.jpg" alt="Spa 2" class="spa-slide">
+        <div class="text">
+            <h4>Hot stone</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa3.jpg" alt="Spa 3" class="spa-slide">
+        <div class="text">
+            <h4>Body Massage</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa10.jpg" alt="Spa 2" class="spa-slide">
+        <div class="text">
+            <h4>Pedicure</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa4.jpg" alt="Spa 4" class="spa-slide">
+        <div class="text">
+            <h4>Pedicure</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa5.jpg" alt="Spa 5" class="spa-slide">
+        <div class="text">
+            <h4>Massage</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa6.jpg" alt="Spa 6" class="spa-slide">
+        <div class="text">
+            <h4>Body Scrub</h4>
+        </div>
+    </div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa7.jpg" alt="Spa 7" class="spa-slide">
+        <div class="text">
+            <h4>Relaxation</h4>
+        </div>
+    </div>
+</div>
+
+    <div class="slide-container mySlides fade">
+        <img src="images/Spa8.jpg" alt="Spa 2" class="spa-slide">
+        <div class="text">
+            <h4>Pedicure</h4>
+        </div>
+    </div>
+        <!-- Next/Prev Buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+<div class="divider"></div>
+
+    <section class="our-services">
+        <h3>Our Services</h3>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fas fa-spa"></i>
+                <h4>Massage</h4>
+                <p>Relaxing and therapeutic massage to ease your stress and improve circulation.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-scrubber"></i>
+                <h4>Body Scrub</h4>
+                <p>Exfoliating body scrub to refresh your skin and give it a smooth, radiant glow.</p>
+            </div>
+   
+            <div class="service-box">
+                <i class="fas fa-wax"></i>
+                <h4>Waxing</h4>
+                <p>Professional waxing services to leave your skin silky smooth and hair-free.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-hand-sparkles"></i>
+                <h4>Manicure</h4>
+                <p>Luxurious manicure treatments to keep your hands looking polished and beautiful.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-foot"></i>
+                <h4>Pedicure</h4>
+                <p>Pamper your feet with our soothing pedicure services for smooth and relaxed feet.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-mask"></i>
+                <h4>Facials</h4>
+                <p>Rejuvenating facials to keep your skin fresh, youthful, and glowing.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries or appointments, please reach out to us:</p>
+
+<div class="social-icon whatsapp">
+    <a href="https://wa.me/233558433921" target="_blank" aria-label="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+
+            <p>Email: <a href="mailto:info@graciasspa.com">info@graciasspa.com</a></p>
+            <p>Phone: + (233) 2401-90150</p>
+            <p>Address: Haatso, 
+Opposite Transition.</p>
+        </section>
+
+        <div class="social-media">
+            <a href="https://facebook.com" class="social-icon facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" class="social-icon twitter" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" class="social-icon instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" class="social-icon linkedin" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://youtube.com" class="social-icon youtube" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+ <p>&copy; 2024 Gracia's Spa. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
